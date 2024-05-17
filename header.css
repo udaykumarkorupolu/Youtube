@@ -1,0 +1,140 @@
+.header{
+display:flex;
+height:55px;
+position:fixed;
+right:0;
+top:0;
+left:0;
+background-color:white;
+z-index:100;
+}
+.left-section{
+display:flex;
+align-items:center;
+width:150px;
+}
+.hamburger{
+height:20px;
+width:20px;
+margin-left:20px;
+margin-right:20px;
+}
+.youtube{
+height:20px;
+width:85px;
+}
+.middle-section{
+display:flex;
+align-items:center;
+display:flex;
+align-items:center;
+flex:1;
+margin-left:150px;
+margin-right:60px;
+}
+.search{
+width:0;
+flex:1;
+padding-left:10px;
+padding-right:10px;
+padding-top:8px;
+padding-bottom:8px;
+margin-right:-3px;
+max-width:500px;
+}
+
+.search-icon{
+height:20px;
+
+}
+.right-section{
+flex-shrink:0;
+display:flex;
+align-items:center;
+justify-content:space-between;
+width:200px;
+}
+.button{
+height:35px;
+width:40px;
+margin-right:35px;
+
+
+}
+.mike-button{
+height:35px;
+width:40px;
+border:none;
+position:relative;
+}
+.voice-search-icon{
+height:20px;
+width:20px;
+border-radius:10px;
+}
+.upload{
+height:20px;
+width:20px;
+}
+.apps{
+height:20px;
+width:20px;
+}
+.notify{
+height:20px;
+width:20px;
+}
+.profile{
+height:40px;
+width:40px;
+object-fit:cover;
+border-radius:20px;
+max-width:500px;
+}
+.button,
+.mike-button,
+.upload1,
+.apps1,
+.notifications1,
+.profile1{
+display:flex;
+justify-content:center;
+align-items:center;	
+position:relative;
+}
+.button .tooltip,
+.mike-button .tooltip,
+.upload1 .tooltip,
+.apps1 .tooltip,
+.notifications1 .tooltip,
+.profile1 .tooltip{
+position:absolute;
+background-color:black;
+color:white;
+bottom:-18;
+pointer-events:none;
+white-space:nowrap;
+opacity:0;
+}
+.button:hover .tooltip,
+.mike-button:hover .tooltip,
+.upload1:hover .tooltip,
+.apps1:hover .tooltip,
+.notifications1:hover .tooltip,
+.profile1:hover .tooltip{
+opacity:1;
+}
+.notifications1 .count{
+display:flex;
+justify-content:center;
+align-items:center;
+position:absolute;
+top:-3px;
+right:-7;
+height:16px;
+width:16px;
+border-radius:8px;
+background-color:red;
+color:white;
+object-fit:cover;
+}
